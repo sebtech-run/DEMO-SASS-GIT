@@ -1,0 +1,91 @@
+@import "button.scss";
+
+
+
+
+body{
+    
+    margin: 0;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: #fff;
+
+    &_title {
+        font-family: 'Shrikhand', cursive;
+    }
+}
+
+.localisation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 50px;
+    background-color: #EAEAEA;
+
+
+    &_ville {
+        h2 {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        }
+    }
+}
+
+.information {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    padding-bottom: 30px;
+   
+
+    &_titre {
+        display: flex;
+        justify-content: center;
+        width: 260px;
+
+        h2 {
+            text-align: center;
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 24px;    
+        }
+        
+    }
+
+    &_text {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+
+        p {
+            text-align: center;
+            font-family: 'Roboto';
+            font-weight: 300;  
+            font-size: 18px;  
+        }
+
+    }
+
+    &_button {
+        @include buttonprimary;
+        margin-top: 20px;
+    }
+   
+    
+   
+    
+    
+
+}

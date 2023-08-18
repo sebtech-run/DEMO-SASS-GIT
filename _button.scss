@@ -1,0 +1,24 @@
+@use "sass:color";
+
+
+
+
+
+
+
+
+@mixin buttonprimary {
+
+    border-radius: 100px;
+    
+    font-weight: 500;
+    font-size: 17px;
+    background-color: rgb(43, 134, 83);
+    padding: 14px 24px;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+}

@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background-color: #fff;
+}
+.header_title {
+  font-family: "Shrikhand", cursive;
+}
+
+.localisation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 50px;
+  background-color: #EAEAEA;
+}
+.localisation_ville h2 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  padding-bottom: 30px;
+}
+.information_titre {
+  display: flex;
+  justify-content: center;
+  width: 260px;
+}
+.information_titre h2 {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+}
+.information_text {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+.information_text p {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 18px;
+}
+.information_button {
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 17px;
+  background-color: rgb(43, 134, 83);
+  padding: 14px 24px;
+  margin-top: 20px;
+}
+.information_button a {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
